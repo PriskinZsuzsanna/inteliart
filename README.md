@@ -12,7 +12,7 @@ https://www.figma.com/file/KqGUsIbK9pmlcX03Vg180g/Teszt-feladat?type=design&node
 - szem előtt tartva a tartalom optimalizálását oly módon, hogy a szerver felé történő requestek száma minél kevesebb legyen
 - és a generált css és js kód a lehető legkevesebb felesleges tartalommal rendelkezzen
 
-- Kérjük, hogy a készülő oldalt a Google Chrome, Lighthouse tooljával teszteld és törekedj annak maximális pontszámaira.
+Kérjük, hogy a készülő oldalt a Google Chrome, Lighthouse tooljával teszteld és törekedj annak maximális pontszámaira.
 
 **Fontos!** \
 Azt szeretnénk látni, hogy hogyan strukturálod az SCSS és JS kódokat, hogyan alkalmazod a bootstrap componenseket és, hogy a HTML kódban miként valósítod meg a kívánt grafikát, az elvárt működést. \
