@@ -5,9 +5,22 @@
  * We recommend including the built version of this JavaScript file
  * (and its CSS file) in your base layout (base.html.twig).
  */
+require('bootstrap-icons/font/bootstrap-icons.css');
 
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.scss';
 
 // start the Stimulus application
 import './bootstrap';
+import * as bootstrap from 'bootstrap'
+
+
+const circleLgs = document.querySelectorAll('.circle-lg')
+
+circleLgs.addEventListener('click', (e) => {
+    console.log(e.target)
+    circleLgs.forEach((item) => {
+        item.classList.remove('active')
+    })
+    e.target.classList.add('active')
+})

@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>IAOM Teszt feladat</title>
@@ -9,7 +10,121 @@
     <script src="./build/app.js"></script>
     <script src="./build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js.js"></script>
 </head>
+
 <body>
 
+    <main class="text-center py-5 d-flex flex-column justify-content-center align-items-center">
+        <section class="section-title">
+            <div class="container">
+                <p class="text-success uppercase fw-bold">Ne hagyja, hogy egy bűnügyi vád tönkre tegye az életét!</p>
+                <h2 class="my-4">A bűntetőeljárás <br> szakaszai</h2>
+                <p>A bűntetőeljárás három fő szakaszból áll, mely egy nyomozati szakasszal kezdődik, ezt követi az
+                    ügyészi
+                    szakasz és a bírósági szakasszal végződik. Ismerje meg ezeket. Mi minden szakaszban tudunk
+                    segítséget
+                    nyújtani!</p>
+            </div>
+        </section>
+
+        <section class="penalty-section my-4">
+            <div class="item d-flex justify-content-start align-items-center gap-2 mb-2">
+                <div class="icon" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></div>
+                <div class="circle-lg">Őrizetbe vétel</div>
+            </div>
+            <div class="item d-flex justify-content-start align-items-center gap-2 mb-2">
+                <div class="icon" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></div>
+                <div class="circle-lg">Letartóztatás</div>
+            </div>
+            <div class="item d-flex justify-content-start align-items-center gap-2 mb-2">
+                <div class="icon" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></div>
+                <div class="circle-lg">Vádemelés</div>
+            </div>
+            <div class="item d-flex justify-content-start align-items-center gap-2 mb-2">
+                <div class="icon" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></div>
+                <div class="circle-lg">Előkészítő ülés</div>
+            </div>
+            <div class="item d-flex justify-content-start align-items-center gap-2 mb-2">
+                <div class="icon" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></div>
+                <div class="circle-lg">Bírósági tárgyalás</div>
+            </div>
+            <div class="item d-flex justify-content-start align-items-center gap-2 mb-2">
+                <div class="icon" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></div>
+                <div class="circle-lg">Ítélethozatal</div>
+            </div>
+            <div class="item d-flex justify-content-start align-items-center gap-2 mb-2">
+                <div class="icon"  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></div>
+                <div class="circle-lg">Fellebbezés</div>
+            </div>
+        </section>
+
+        <section class="my-2">
+            <div class="d-flex justify-content-center align-items-center  gap-3">
+              <p>Nyomozati szakasz</p>
+              <p>Ügyészi szakasz</p>
+              <p>Bírósági szakasz</p>
+            </div>
+        </section>
+
+        <section class="my-4">
+            <div class="container">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner ">
+
+                        <div class="carousel-item active ">
+                            <div class="row w-75 mx-auto g-3">
+                                <div class="col p-3 carousel-card">
+                                    <h3>Előkészítő ülés</h3>
+                                    <p>A tárgyalást megelőző vagy a felfedezés szakaszában az Ön ügyvédje (link) információt cserél
+                                        az ellenfél ügyvédjével. Megbeszéljük a tárgyalás során felhasználni kívánt információkat és
+                                        bizonyítékokat (link). Egyes esetekben tárgyalás előtti indítványt (link) lehet benyújtani,
+                                        amely bizonyos vádakat elutasíthat, vagy bizonyos bizonyítékokat kihagyhat a tárgyalásból.
+                                    </p>
+                                    <h4>További részletek</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active ">
+                            <div class="row w-75 mx-auto g-3">
+                                <div class="col p-3 carousel-card">
+                                    <h3>Előkészítő ülés</h3>
+                                    <p>A tárgyalást megelőző vagy a felfedezés szakaszában az Ön ügyvédje (link) információt cserél
+                                        az ellenfél ügyvédjével. Megbeszéljük a tárgyalás során felhasználni kívánt információkat és
+                                        bizonyítékokat (link). Egyes esetekben tárgyalás előtti indítványt (link) lehet benyújtani,
+                                        amely bizonyos vádakat elutasíthat, vagy bizonyos bizonyítékokat kihagyhat a tárgyalásból.
+                                    </p>
+                                    <h4>További részletek</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-success bg-opacity-10 text-center py-5">
+        <div class="container">
+            <p class="text-success uppercase fw-bold">Az ügyvédi stratégia kulcskérdés, döntően meghatározza az ügy
+                kimenetelét!</p>
+            <h4 class="my-4">Készen áll arra, hogy megkezdjük a védekezést? Lépjen kapcsolatba velünk!</h4>
+            <div class=" mt-3form-group d-flex justify-content-center gap-2">
+                <button class="uppercase w-100 btn btn-outline-success fw-bold text-outline-success">Konzultáció</button>
+                <button class="w-100 btn btn-success fw-bold">+36701112233</button>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
